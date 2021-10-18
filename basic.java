@@ -1,6 +1,8 @@
-public class hello{
+
+public class basic{
     public static void main(String[] args) {
         System.out.println("Hello World");
-        System.out.println("Rubaya");
+        System.out.print("Rubaya \nnew baby \nbaby girl");
+        
     }
 }
