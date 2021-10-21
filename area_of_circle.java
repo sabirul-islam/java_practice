@@ -11,5 +11,7 @@ public static void main(String[] args) {
     area = Math.PI * radius * radius;
 
     System.out.println("Area of triangle is: " + area);
+
+    input.close();
 }
 }
