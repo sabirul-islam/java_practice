@@ -5,9 +5,6 @@ public class celcius_to_farenheit {
         /*
         celcius to farenheit
         F = (9/5)*c + 32;
-
-        farenheit to celcius
-        c = (5/9)*(f-32);
         */
 
         Scanner input = new Scanner(System.in);
