@@ -6,7 +6,7 @@ public class factorial {
 
         int num, fact=1;
 
-        System.out.print("Entere a number: ");
+        System.out.print("Enter a number: ");
         num = input.nextInt();
 
         //5! = 5*4*3*2*1;
