@@ -8,12 +8,12 @@ public class celcius_to_farenheit {
         */
 
         Scanner input = new Scanner(System.in);
-        Double celcius, farenheit;
+        double celcius, farenheit;
 
         System.out.print("Enter Your Celcius Value: ");
         celcius = input.nextDouble();
 
-        farenheit = 1.8 * celcius + 32;
+        farenheit = (celcius * 9/5) + 32;
         System.out.println("Farenheit: " + farenheit);
 
         input.close();
